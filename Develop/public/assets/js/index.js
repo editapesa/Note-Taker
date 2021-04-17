@@ -1,3 +1,22 @@
+// dependencies
+const express = require('express');
+const path = require('path');
+
+// sets up express app
+const app = express();
+const PORT = process.env.PORT || 3000;
+
+// sets up the express app to handle data parsing
+app.use(express.urlencoded({ extended: true }));
+app.use(express.json());
+
+// routes
+app.get('/', (req, res) => res.sendFile(path.join(__dirname, 'public/index.html')));
+app.get('/notes', (req, res) => res.sendFile(path.join(__dirname, 'public/notes.html')));
+app.get('/api/notes', (req, res) => res.json(notes));
+
+app.listen(PORT, () => console.log('Express server listening'));
+
 let noteTitle;
 let noteText;
 let saveNoteBtn;
