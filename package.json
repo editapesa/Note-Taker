@@ -1,18 +1,25 @@
 {
-  "name": "Develop",
+  "name": "hw-11-note-taker",
   "version": "1.0.0",
-  "description": "",
-  "main": "server.js",
-  "dependencies": {
-    "express": "^4.17.1",
-    "generate-unique-id": "^2.0.1"
-  },
-  "devDependencies": {},
+  "description": "![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/editapesa/Note-Taker.git"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/editapesa/Note-Taker/issues"
+  },
+  "homepage": "https://github.com/editapesa/Note-Taker#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "generate-unique-id": "^2.0.1",
+    "start": "^5.1.0"
+  }
 }

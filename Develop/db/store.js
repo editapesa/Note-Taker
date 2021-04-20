@@ -1,7 +1,7 @@
 const util = require('util');
 const fs = require('fs');
 
-const generateUniqueId = require('generate-unique-id');
+const generateUniqueId = require('../routes/node_modules/generate-unique-id');
 
 const readFileAsync = util.promisify(fs.readFile);
 const writeFileAsync = util.promisify(fs.writeFile);
