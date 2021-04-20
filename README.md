@@ -21,7 +21,7 @@ This project is licensed under the MIT license. Click the link below for more in
 [MIT License](https://opensource.org/licenses/MIT)
 
 ## Visuals
-[Link to Note Taker](https.url.com)
+[Link to Note Taker](https://protected-waters-98594.herokuapp.com/)
 
 ![demo pic 1](Assets/demo-pic1.jpg)
 
