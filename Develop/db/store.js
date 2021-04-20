@@ -17,7 +17,7 @@ class Store {
         return this.read().then((notes));
     }
     addNote(note) {
-        let note = { title, text };
+        const { title, text } = note;
         let newNote = { title, text, id: generateUniqueId() };
         return this.getNotes()
             .then((notes) => [...notes, newNote])
